@@ -1,0 +1,5 @@
+<h1> Search repositories on github </h1>
+<%= form_for @semester, url: semesters_path do |f| %>
+  <%= f.text_field :name, placeholder: "enter login" %><br>
+  <%= f.submit "Search" %>
+<% end %>
